@@ -4,11 +4,10 @@
 
 body {
     background: red;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 header, main, footer {
     background: white;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
