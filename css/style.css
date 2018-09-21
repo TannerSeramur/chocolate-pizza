@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yellowtail');
 @import url('https://fonts.googleapis.com/css?family=Lekton');
-
+@import url("https://fonts.googleapis.com/css?family=Dekko");
 * {
     box-sizing: border-box;
 }
@@ -45,7 +45,6 @@ header nav div:first-child {
     font-family: 'Lekton', sans-serif;
     font-size: .5em;
     padding-right: 1em;
-    padding-top:
 }
 
 header nav div:last-child {
@@ -122,3 +121,132 @@ main figure img {
 #body-text span {
     padding-left: 3%;
 }
+
+
+.bg-img{
+    background-image: url("../img/list-bg.png" );
+    background-repeat: no-repeat;
+    padding: 20px 20px 40px;
+    margin: 10px;
+    overflow: auto;
+    background-size:cover;
+
+}
+.list-container{
+    padding: 10px;
+    background: red;
+}
+ul{
+    margin-right: 100px;
+}
+li{
+    list-style-type: none;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+
+.right-list{
+    background: blue;
+    float: right;
+    padding: 0;
+    margin-left: 10px;
+}
+    
+.left-list{
+    background: green;
+    float: left;
+    margin-right: 50px;
+}
+label{
+    font-family: 'Dekko', cursive;
+}
+
+.about-author{
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-top: 15px solid;
+    border-image: repeating-linear-gradient(35deg, white, white 1.5px, black 1.5px, black 2px)8;
+    
+    padding-top: 20px;
+
+}
+.about-author img{
+    float: left;
+}
+
+.about-text{
+    float: left;
+    margin-top: 0px;
+    padding-left: 20px;
+    display: block;
+}
+h5{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.about-text p{
+    margin-top: 0px;
+
+}
+
+.btn{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.btn button{
+    padding: 15px 20px 15px;
+    border: none;
+    margin-right: 90px;
+    background-color:#e66958;
+    font-size: 16px;
+    color: #f1f1f1;
+    
+}
+.about-author button{
+    float: right;
+    position: relative;
+}
+footer{
+    clear: both;
+}
+
+.left-line{
+    width: 45%;
+    height: 1px;
+    background-color: black;
+    opacity: .2;
+    margin: 5px;
+}
+.right-line{
+    width: 45%;
+    height: 1px;
+    background-color: black;
+    opacity: .2;
+    margin: 5px;
+}
+
+.logo-line{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+.footer-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
+li input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }
