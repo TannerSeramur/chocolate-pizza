@@ -43,7 +43,9 @@ li{
     width: 100%;
     margin-bottom: 50px;
     margin-top: 30px;
-    border-top: 5px solid black;
+    border-top: 15px solid;
+    border-image: repeating-linear-gradient(35deg, white, white 1.5px, black 1.5px, black 2px)8;
+    
     padding-top: 20px;
 
 }
@@ -80,7 +82,10 @@ h5{
     padding: 10px 20px 10px;
     border: none;
     margin-right: 90px;
-    background-color:red;
+    background-color:#e66958;
+    font-size: 16px;
+    color: #f1f1f1;
+    
 }
 .about-author button{
     float: right;
@@ -93,14 +98,14 @@ footer{
 }
 
 .left-line{
-    width: 300px;
+    width: 500px;
     height: 1px;
     background-color: black;
     opacity: .2;
     margin: 5px;
 }
 .right-line{
-    width: 300px;
+    width: 500px;
     height: 1px;
     background-color: black;
     opacity: .2;
@@ -117,12 +122,12 @@ footer{
 }
 .footer-text {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 80px;
 }
 
 
-li input [type=checkbox]:checked + label{
+li input[type=checkbox]:checked + label{
     text-decoration: line-through;
   }
 
