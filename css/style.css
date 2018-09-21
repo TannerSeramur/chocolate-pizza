@@ -1,0 +1,129 @@
+body{
+    padding: 0% 12.212% 0%;
+}
+
+.bg-img{
+    background-image: url("../img/list-bg.png" );
+    background-size: 95%;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 20px 20px 40px;
+    margin: 10px;
+    overflow: auto;
+
+}
+.list-container{
+    padding: 10px;
+}
+ul{
+    margin-right: 100px;
+}
+li{
+    list-style-type: none;
+    padding: 5.5px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.right-list{
+    float:left;
+}
+    
+.left-list{
+    float: left;
+    margin-left: 0px;
+}
+
+.about-author{
+    clear: both;
+    float: left;
+    /* background-color: red; */
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-top: 5px solid black;
+    padding-top: 20px;
+
+}
+.about-author img{
+    float: left;
+}
+
+.about-text{
+    float: left;
+    margin-top: 0px;
+    padding-left: 10px;
+    display: block;
+    /* background-color: green; */
+}
+h5{
+    font-size: 20px;
+    margin-top: 0px;
+    /* background-color: purple; */
+}
+.about-text p{
+    margin-top: 10px;
+
+}
+
+.btn{
+    vertical-align: 50%;
+    line-height: 100%;
+    /* border-radius: 0px; */
+    margin: 20px;
+    
+    
+}
+.btn button{
+    padding: 10px 20px 10px;
+    border: none;
+    margin-right: 90px;
+    background-color:red;
+}
+.about-author button{
+    float: right;
+    position: relative;
+    /* background-color: blue; */
+    
+}
+footer{
+    clear: both;
+}
+
+.left-line{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    opacity: .2;
+    margin: 5px;
+}
+.right-line{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    opacity: .2;
+    margin: 5px;
+}
+
+.logo-line{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+.footer-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+li input [type=checkbox]:checked + label{
+    text-decoration: line-through;
+  }
+
+
