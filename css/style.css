@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Lekton');
+
 * {
     box-sizing: border-box;
 }
@@ -27,6 +30,22 @@ header nav div:first-child {
 
 #masthead img {
     float: left;
+    padding-right: 5px;
+}
+
+#masthead div {
+    margin-bottom: 5em;
+}
+#masthead h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5em;
+}
+
+#masthead h2 {
+    font-family: 'Lekton', sans-serif;
+    font-size: .5em;
+    padding-right: 1em;
+    padding-top:
 }
 
 header nav div:last-child {
@@ -43,7 +62,7 @@ header nav ul:last-of-type {
     padding-left: 1em;
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
     margin: -0.1em;
 }
@@ -68,6 +87,8 @@ main section h3 {
 }
 main section div:nth-child(2) h4 {
     float: left;
+    font-family: 'Lekton', sans-serif;
+    font-size: .5em;
 }
 
 #print {
@@ -79,6 +100,8 @@ main section div:nth-child(2) h4 {
 }
 
 #print p {
+    font-family: 'Lekton', sans-serif;
+    font-size: .5em;
     float: right;
 }
 
