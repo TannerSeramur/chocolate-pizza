@@ -23,7 +23,6 @@ header {
 }
 
 
-
 header nav {
     
 }
@@ -57,7 +56,7 @@ main {
     padding-top: 5%;
 }
 
-main section {
+main section:first-of-type {
     border-top: 15px solid black;
     padding-top: 7%;
 }
@@ -85,4 +84,5 @@ main section div:nth-child(2) h4 {
 
 main figure {
     padding-top: 5%;
+    padding-bottom: 5%;
 }
