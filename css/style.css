@@ -37,14 +37,21 @@ header nav div:first-child {
 
 header nav div:last-child {
     float: right;
+    margin-top: 1.5%;
 }
 
-header nav div:nth-child(2) {
+header nav ul:first-of-type {
+    float: left;
+}
+
+header nav ul:last-of-type {
     float: right;
+    padding-left: 1em;
 }
 
 header nav ul li{
     display: inline-block;
+    margin: -0.1em;
 }
 
 
@@ -84,5 +91,18 @@ main section div:nth-child(2) h4 {
 
 main figure {
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+#body-text p {
+    line-height: 1.5em;
+    padding-bottom: 3%;
+}
+
+#body-text span {
+    padding-left: 3%;
 }
