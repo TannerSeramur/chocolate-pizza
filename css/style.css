@@ -58,7 +58,8 @@ main {
 }
 
 main section:first-of-type {
-    border-top: 15px solid black;
+    border-top: 15px solid;
+    border-image: repeating-linear-gradient(35deg, white, white 1.5px, black 1.5px, black 2px)8;
     padding-top: 7%;
 }
 
@@ -74,12 +75,10 @@ main section div:nth-child(2) h4 {
 }
 
 #print img {
-    border: 1px solid black;
     float: left;
 }
 
 #print p {
-    border: 1px solid black;
     float: right;
 }
 
