@@ -3,7 +3,6 @@
 }
 
 body {
-    background: red;
     padding-left: 12.212%;
     padding-right: 12.212%;
 }
@@ -20,11 +19,6 @@ header {
     display: block;
     padding-top: 3%;
     padding-bottom: 3%;
-}
-
-
-header nav {
-    
 }
 
 header nav div:first-child {
