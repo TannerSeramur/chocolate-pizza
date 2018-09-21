@@ -10,6 +10,7 @@ body{
     padding: 20px 20px 40px;
     margin: 10px;
     overflow: auto;
+    background-size:cover;
 
 }
 .list-container{
@@ -20,11 +21,11 @@ ul{
 }
 li{
     list-style-type: none;
-    padding: 5.5px;
+    padding: 4px;
     margin-top: 5px;
     margin-left: 40px;
     margin-right: 50px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .right-list{
@@ -59,17 +60,18 @@ label{
 .about-text{
     float: left;
     margin-top: 0px;
-    padding-left: 10px;
+    padding-left: 20px;
     display: block;
     /* background-color: green; */
 }
 h5{
     font-size: 20px;
     margin-top: 0px;
+    margin-bottom: 10px;
     /* background-color: purple; */
 }
 .about-text p{
-    margin-top: 10px;
+    margin-top: 0px;
 
 }
 
@@ -102,14 +104,14 @@ footer{
 }
 
 .left-line{
-    width: 500px;
+    width: 45%;
     height: 1px;
     background-color: black;
     opacity: .2;
     margin: 5px;
 }
 .right-line{
-    width: 500px;
+    width: 45%;
     height: 1px;
     background-color: black;
     opacity: .2;
