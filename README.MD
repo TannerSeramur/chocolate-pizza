@@ -1,6 +1,6 @@
 # Chocolate Pizza
 
-This is the dev rendition of a markup provided by a web designer
+This is the dev rendition of a mockup provided by a web designer
 
 ## Getting Started
 
