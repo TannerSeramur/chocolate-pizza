@@ -15,9 +15,7 @@ header, main, footer {
 }
 
 
-/**
-        HEADER
-**/
+
 header {
     display: block;
     padding-top: 3%;
@@ -92,6 +90,8 @@ main section div:nth-child(2) h4 {
 
 #print {
     float: right;
+    padding:0;
+    margine: 0;
 }
 
 #print img {
@@ -126,39 +126,35 @@ main figure img {
 .bg-img{
     background-image: url("../img/list-bg.png" );
     background-repeat: no-repeat;
-    padding: 20px 20px 40px;
+    padding: 15px 20px 40px;
     margin: 10px;
     overflow: auto;
     background-size:cover;
+    clear: both;
 
 }
-.list-container{
-    padding: 10px;
-    background: red;
+
+.listContainer{
+    padding: 20px;
+    display: flex;
 }
-ul{
-    margin-right: 100px;
-}
+
 li{
     list-style-type: none;
-    padding: 4px;
-    margin-top: 5px;
+    margin-bottom: 8px;
     margin-left: 40px;
-    margin-right: 50px;
-    font-size: 1.5em;
+    font-size: 1.5em;  
 }
 
 .right-list{
-    background: blue;
-    float: right;
     padding: 0;
     margin-left: 10px;
+    padding-bottom: px;
 }
     
 .left-list{
-    background: green;
-    float: left;
-    margin-right: 50px;
+    padding: 0;
+    margin-left: 10px;
 }
 label{
     font-family: 'Dekko', cursive;
